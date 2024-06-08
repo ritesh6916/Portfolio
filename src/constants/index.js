@@ -45,7 +45,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Gopalganj, Bihar, India, 841501 ",
-  phoneNo: "+91 933 410 6744 ",
-  email: "akkpk933@gmail.com",
+  address: "Gopalganj, Bihar, India, 841428 ",
+  phoneNo: "+91-8002208399",
+  email: "riteshsingh0500@gmail.com",
 };

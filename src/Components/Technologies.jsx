@@ -1,11 +1,10 @@
-import React from "react";
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { FaGithub } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { FaJava } from "react-icons/fa6";
+import { SiApachemaven } from "react-icons/si";
+import { BsFiletypeJson } from "react-icons/bs";
+import { SiMysql } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -44,7 +43,7 @@ const Technologies = () => {
           id="technologies"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMongodb className="text-7xl text-green-500" />
+          <BiLogoSpringBoot className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(3)}
@@ -53,7 +52,7 @@ const Technologies = () => {
           id="technologies"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiExpress className="text-7xl text-black" />
+          <FaJava className="text-7xl text-sky-600" />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -62,7 +61,7 @@ const Technologies = () => {
           id="technologies"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <SiApachemaven className="text-7xl text-red-400" />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
@@ -71,7 +70,7 @@ const Technologies = () => {
           id="technologies"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaNodeJs className="text-7xl text-green-500" />
+          <BsFiletypeJson className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
@@ -80,7 +79,7 @@ const Technologies = () => {
           id="technologies"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl" />
+          <SiMysql className="text-7xl text-sky-500" />
         </motion.div>
         <motion.div
           variants={iconVariants(5)}
@@ -89,7 +88,7 @@ const Technologies = () => {
           id="technologies"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaGithub className="text-7xl text-white" />
+          <FaGithub className="text-7xl " />
         </motion.div>
       </motion.div>
     </div>

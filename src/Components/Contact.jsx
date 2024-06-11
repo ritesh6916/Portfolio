@@ -1,9 +1,7 @@
-import React from "react";
 import { CONTACT } from "../constants";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaRegFilePdf } from "react-icons/fa6";
+// import { FaRegFilePdf } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { FaHackerrank } from "react-icons/fa";
 
@@ -59,9 +57,9 @@ const Contact = () => {
         <a target="_blank" href="https://www.hackerrank.com/profile/RITESHSINGH0500">
         <FaHackerrank />
         </a>
-        <a target="_blank" href="#">
+        {/* <a target="_blank" href="#">
           <FaRegFilePdf />
-        </a>
+        </a> */}
       </motion.div>
     </div>
   );

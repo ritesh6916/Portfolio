@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {FaLinkedin} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {FaHackerrank} from 'react-icons/fa6'
@@ -12,21 +12,21 @@ const Navbar = () => {
     };
 
   return (
-    <nav className="h-16 flex flex-wrap justify-between items-center fixed left-0 right-0 top-0 py-2 lg:px-12 px-3 backdrop-blur-xl bg-transparent">
+    <nav className="h-16 flex flex-wrap justify-between items-center fixed left-0 right-0 top-0 py-2 lg:px-12 px-3 backdrop-blur-xl bg-transparent duration-100">
         <div className="flex flex-wrap items-center justify-center text-2xl gap-4 px-3">
-            <a target="_blank" href="https://www.linkedin.com/in/ritesh-singh-533661190/">
+            <a target="_blank" href="https://www.linkedin.com/in/ritesh-singh-533661190/" className="text-blue-500">
                 <FaLinkedin />
             </a>
             <a target="_blank" href="https://github.com/ritesh6916">
                 <FaGithub />
             </a>
-            <a target="_blank" href="https://www.hackerrank.com/profile/RITESHSINGH0500">
-        <FaHackerrank />
-        </a>
+            <a target="_blank" href="https://www.hackerrank.com/profile/RITESHSINGH0500" className="text-green-600">
+            <FaHackerrank />
+            </a>
         </div>
 
         <div className="hidden md:block px-3">
-            <ul className="flex gap-8 text-md font-bold">
+            <ul className="flex gap-6 text-md font-bold">
                 <li>
                     <a href="#home" className="hover:text-[#7587ec] duration-200">Home</a>
                 </li>
@@ -40,7 +40,13 @@ const Navbar = () => {
                     <a href="#projects" className="hover:text-[#7587ec] duration-200">Projects</a>
                 </li>
                 <li>
-                    <a href="#contact" className="hover:text-[#7587ec] duration-200">Contact me</a>
+                    <a href="#experience" className="hover:text-[#7587ec] duration-200">Experience</a>
+                </li>
+                <li>
+                    <a href="#other" className="hover:text-[#7587ec] duration-200">Education</a>
+                </li>
+                <li>
+                    <a href="#contact" className="hover:text-[#7587ec] duration-200">Contact</a>
                 </li>
             </ul>
         </div>
@@ -65,6 +71,12 @@ const Navbar = () => {
                 </li>
                 <li className="border-b">
                     <a className="block py-2 pr-4 pl-3 duration-200 text-white hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-[#7587ec] lg:p-0" href="#projects">Projects</a>
+                </li>
+                <li className="border-b">
+                    <a className="block py-2 pr-4 pl-3 duration-200 text-white hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-[#7587ec] lg:p-0" href="#experience">Experience</a>
+                </li>
+                <li className="border-b">
+                    <a className="block py-2 pr-4 pl-3 duration-200 text-white hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-[#7587ec] lg:p-0" href="#other">Other</a>
                 </li>
                 <li>
                     <a className="block py-2 pr-4 pl-3 duration-200 text-white hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-[#7587ec] lg:p-0" href="#contact">Contact me</a>

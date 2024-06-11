@@ -28,25 +28,25 @@ const Navbar = () => {
         <div className="hidden md:block px-3">
             <ul className="flex gap-6 text-md font-bold">
                 <li>
-                    <a href="#home" className="hover:text-[#7587ec] duration-200">Home</a>
+                    <a href="#home" className="hover:text-white text-[#7587ec] duration-200">Home</a>
                 </li>
                 <li>
-                    <a href="#about" className="hover:text-[#7587ec] duration-200">About</a>
+                    <a href="#about" className="hover:text-white text-[#7587ec] duration-200">About</a>
                 </li>
                 <li>
-                    <a href="#technologies" className="hover:text-[#7587ec] duration-200">Technologies</a>
+                    <a href="#technologies" className="hover:text-white text-[#7587ec] duration-200">Technologies</a>
                 </li>
                 <li>
-                    <a href="#projects" className="hover:text-[#7587ec] duration-200">Projects</a>
+                    <a href="#projects" className="hover:text-white text-[#7587ec] duration-200">Projects</a>
                 </li>
                 <li>
-                    <a href="#experience" className="hover:text-[#7587ec] duration-200">Experience</a>
+                    <a href="#experience" className="hover:text-white text-[#7587ec] duration-200">Experience</a>
                 </li>
                 <li>
-                    <a href="#other" className="hover:text-[#7587ec] duration-200">Education</a>
+                    <a href="#other" className="hover:text-white text-[#7587ec] duration-200">Education</a>
                 </li>
                 <li>
-                    <a href="#contact" className="hover:text-[#7587ec] duration-200">Contact</a>
+                    <a href="#contact" className="hover:text-white text-[#7587ec] duration-200">Contact</a>
                 </li>
             </ul>
         </div>
@@ -54,32 +54,32 @@ const Navbar = () => {
         <button 
             className="md:hidden focus:outline-none w-12 px-3"
             onClick={handleClick}
-
+            onBlur={() => setTimeout(() => setIsHidden(!isHidden), 1000)}
         >
             <svg className="h-6 w-10 text-white" fill="none" viewBox="0 0 24 22" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
         </button>
         <div className={`${ isHidden ? "hidden" : "block" } md:hidden w-44 absolute top-14 right-4 border bg-gray-900 rounded-xl`}>
             <ul className="flex flex-col font-medium justify-center">
                 <li className="border-b">
-                    <a className="block py-2 pr-4 pl-3 duration-200 text-white hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1 lg:hover:bg-transparent lg:border-0 hover:text-[#7587ec] lg:p-0" href="#">Home</a>
+                    <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1 lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#">Home</a>
                 </li>
                 <li className="border-b">
-                    <a className="block py-2 pr-4 pl-3 duration-200 text-white hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-[#7587ec] lg:p-0" href="#about">About</a>
+                    <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#about">About</a>
                 </li>
                 <li className="border-b">
-                    <a className="block py-2 pr-4 pl-3 duration-200 text-white hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-[#7587ec] lg:p-0" href="#technologies">Technologies</a>
+                    <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#technologies">Technologies</a>
                 </li>
                 <li className="border-b">
-                    <a className="block py-2 pr-4 pl-3 duration-200 text-white hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-[#7587ec] lg:p-0" href="#projects">Projects</a>
+                    <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#projects">Projects</a>
                 </li>
                 <li className="border-b">
-                    <a className="block py-2 pr-4 pl-3 duration-200 text-white hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-[#7587ec] lg:p-0" href="#experience">Experience</a>
+                    <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#experience">Experience</a>
                 </li>
                 <li className="border-b">
-                    <a className="block py-2 pr-4 pl-3 duration-200 text-white hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-[#7587ec] lg:p-0" href="#other">Other</a>
+                    <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#other">Other</a>
                 </li>
                 <li>
-                    <a className="block py-2 pr-4 pl-3 duration-200 text-white hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-[#7587ec] lg:p-0" href="#contact">Contact me</a>
+                    <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#contact">Contact me</a>
                 </li>
             </ul>
         </div>

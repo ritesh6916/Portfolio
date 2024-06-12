@@ -34,14 +34,15 @@ const Navbar = () => {
                     <a href="#about" className="hover:text-white text-[#7587ec] duration-200">About</a>
                 </li>
                 <li>
+                    <a href="#experience" className="hover:text-white text-[#7587ec] duration-200">Experience</a>
+                </li>
+                <li>
                     <a href="#technologies" className="hover:text-white text-[#7587ec] duration-200">Technologies</a>
                 </li>
                 <li>
                     <a href="#projects" className="hover:text-white text-[#7587ec] duration-200">Projects</a>
                 </li>
-                <li>
-                    <a href="#experience" className="hover:text-white text-[#7587ec] duration-200">Experience</a>
-                </li>
+                
                 <li>
                     <a href="#other" className="hover:text-white text-[#7587ec] duration-200">Education</a>
                 </li>
@@ -67,14 +68,15 @@ const Navbar = () => {
                     <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#about">About</a>
                 </li>
                 <li className="border-b">
+                    <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#experience">Experience</a>
+                </li>
+                <li className="border-b">
                     <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#technologies">Technologies</a>
                 </li>
                 <li className="border-b">
                     <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#projects">Projects</a>
                 </li>
-                <li className="border-b">
-                    <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#experience">Experience</a>
-                </li>
+                
                 <li className="border-b">
                     <a className="block py-2 pr-4 pl-3 duration-200 hover:border hover:border-gray-100 hover:bg-gray-800 rounded-lg m-1  lg:hover:bg-transparent lg:border-0 hover:text-white text-[#7587ec] lg:p-0" href="#other">Other</a>
                 </li>

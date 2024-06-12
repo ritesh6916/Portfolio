@@ -21,7 +21,7 @@ export const PROJECTS = [
     description:
       "A project for managing the contacts.",
     technologies: ["Spring", "SpringBoot", "Java-Pogramming", "AWS"],
-    demoLink: '',
+    demoLink: 'https://github.com/ritesh6916/SmartContactManager-2.0',
     githubLink: 'https://github.com/ritesh6916/SmartContactManager-2.0'
   },
   {
@@ -29,9 +29,9 @@ export const PROJECTS = [
     image: project4,
     description:
       "A standalone application for a hostel management system that was capable of doing all functionalities that are required to regulate a hostel properly.",
-    technologies: ["Java", "AWT", "Swing", "XAMPP"],
-    demoLink: '',
-    githubLink: ''
+    technologies: ["Java", "AWT", "Swing", "XAMPP","MySQL"],
+    demoLink: 'https://github.com/ritesh6916/SmartContactManager-2.0',
+    githubLink: 'https://github.com/ritesh6916/SmartContactManager-2.0'
   },
   {
     title: "Portfolio Website",
@@ -62,16 +62,16 @@ export const EXPERIENCES = [
           We process, transform & control overall flow of data that flows through client’s sites and tools which are being used by customers.
           `
     ],
-    technologies: ["Java", "AWT", "Swing", "XAMPP"],
+    technologies: ["Mainframe", "JCL", "COBOL", "VSAMs", "DB2", "ServiceNow", "Endeavour", "Jinkins"],
   }
 ]
 
 export const EDUCATIONS = [
   {
-    duration: "Aug 202 - Present",
+    duration: "Aug 2022 - Present",
     collegeName: "M.C.A, Manipal University Jaipur, Online",
-    sem: "2nd Semester Completed",
-    description: "Passed with 8.69 CGPA",
+    sem: "3rd Semester Completed",
+    description: "Passed with 8.75 CGPA",
   },
   {
     duration: "Aug 2018 - Aug 2021",

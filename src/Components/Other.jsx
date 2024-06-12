@@ -80,7 +80,7 @@ const Experience = () => {
                       {certificate.duration}
                     </motion.p>
                     {!certificate.verifyLink ? "" : (
-                      <a href={certificate.verifyLink}>
+                      <a target="_blank" href={certificate.verifyLink}>
                         <p className="mb-2 text-blue-400 underline">
                           Verify
                         </p>

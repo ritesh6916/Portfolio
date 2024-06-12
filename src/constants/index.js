@@ -1,7 +1,7 @@
 // import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project2 from "/MyPortfolio-main/public/contact_us_logo.png";
+import project4 from "/public/Hostel-Managemen-System.png";
+//import project3 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Jr. Software Engineer (Programmer Analyst) at Cognizant.
 I am a person with a learning attitude, always ready to improve & add new skills to my bucket.
@@ -35,7 +35,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: "https://avatars.githubusercontent.com/u/58039285?v=4",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
@@ -95,7 +95,7 @@ export const CERTIFICATES = [
   {
     name: "Programming in java, IIT Kharagpur (NPTEL)",
     duration: "September 2020 – December 2020",
-    verifyLink: "",
+    verifyLink: "https://www.linkedin.com/posts/ritesh-singh-533661190_nptel-iitkharagpur-javaprogramming-activity-6754395942197297152-EIZX?utm_source=share&utm_medium=member_desktop",
   },
   {
     name: "Data Structure and algorithm using java, IIT Kharagpur (NPTEL)",

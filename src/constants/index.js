@@ -1,5 +1,5 @@
 // import project1 from "../assets/projects/project-1.jpg";
-import project2 from "/MyPortfolio-main/public/contact_us_logo.png";
+import project2 from "/public/contact_us_logo.png";
 import project4 from "/public/Hostel-Managemen-System.png";
 //import project3 from "../assets/projects/project-4.jpg";
 

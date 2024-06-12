@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+// import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
@@ -19,10 +19,19 @@ export const PROJECTS = [
     title: "Smart Contact Manager",
     image: project2,
     description:
-      "",
+      "A project for managing the contacts.",
     technologies: ["Spring", "SpringBoot", "Java-Pogramming", "AWS"],
     demoLink: '',
     githubLink: 'https://github.com/ritesh6916/SmartContactManager-2.0'
+  },
+  {
+    title: "Hostel Management System",
+    image: project4,
+    description:
+      "A standalone application for a hostel management system that was capable of doing all functionalities that are required to regulate a hostel properly.",
+    technologies: ["Java", "AWT", "Swing", "XAMPP"],
+    demoLink: '',
+    githubLink: ''
   },
   {
     title: "Portfolio Website",
@@ -30,19 +39,70 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
-    demoLink: '#',
-    githubLink: '#'
-  },
-  {
-    title: "Blogging Application",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles. Using Appwrite as Backend",
-    technologies: ["HTML", "CSS", "React", "Appwrite",],
-    demoLink: 'https://mini-blog-react-appwrite-app.vercel.app/',
-    githubLink: 'https://github.com/adityakkpk/MiniBlog-React-Appwrite'
+    demoLink: 'https://www.riteshsingh.info',
+    githubLink: 'https://github.com/ritesh6916/Portfolio'
   },
 ];
+
+export const EXPERIENCES = [
+  {
+    title: "Jr. Software Engineer",
+    company: "Cognizant",
+    startDate: "December 2021",
+    endDate: "Present",
+    descriptions: [
+          `
+          At present I am working for an American client i.e. Esi-Cigna that provides back-end support and data management for healthcare service providers throughout the America.
+          `,
+          `
+          We use "Job Control Language" for job scheduling, COBOL programming 
+          language to control functionalities, IBM-Db2 as a database, and tools like Snow, Jenkins, Expeditor and many portals for smooth transactions.
+          `,
+          `
+          We process, transform & control overall flow of data that flows through client’s sites and tools which are being used by customers.
+          `
+    ],
+    technologies: ["Java", "AWT", "Swing", "XAMPP"],
+  }
+]
+
+export const EDUCATIONS = [
+  {
+    duration: "Aug 202 - Present",
+    collegeName: "M.C.A, Manipal University Jaipur, Online",
+    sem: "2nd Semester Completed",
+    description: "Passed with 8.69 CGPA",
+  },
+  {
+    duration: "Aug 2018 - Aug 2021",
+    collegeName: "B.C.A, Aryabhatta Knowledge University, Patna",
+    sem: "",
+    description: "Passed with 8.69 CGPA",
+  },
+]
+
+export const CERTIFICATES = [
+  {
+    name: "Microsoft azure Fundamentals (AZ- 900), Microsoft",
+    duration: "January 2023",
+    verifyLink: "https://www.credly.com/badges/dd323480-6123-4d2d-b21e-2c218461c0f8/public_url",
+  },
+  {
+    name: "AWS Certified Cloud Practitioner. Amazon Web Service",
+    duration: "July 2023 – July 2026",
+    verifyLink: "https://www.credly.com/badges/73178891-d452-4514-90ce-bf80108b77c8/public_url",
+  },
+  {
+    name: "Programming in java, IIT Kharagpur (NPTEL)",
+    duration: "September 2020 – December 2020",
+    verifyLink: "",
+  },
+  {
+    name: "Data Structure and algorithm using java, IIT Kharagpur (NPTEL)",
+    duration: "September 2020 – December 2020",
+    verifyLink: "",
+  },
+]
 
 export const CONTACT = {
   address: "Gopalganj, Bihar, India, 841428 ",

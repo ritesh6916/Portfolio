@@ -1,4 +1,3 @@
-import React from "react";
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/ProfileImg.jpg";
 import { motion } from "framer-motion";
@@ -11,7 +10,7 @@ const container = (delay) => ({
 
 function Hero() {
   return (
-    <div id="home" className="border-b border-neutral-900 pb-4 lg:mb-35 pt-16">
+    <div id="home" className="border-b border-neutral-900 pb-4 lg:mb-35 pt-[96px]">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -35,15 +34,15 @@ function Hero() {
               variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-10 font-light tracking-tighter text-center lg:text-start"
             >
               {HERO_CONTENT}
             </motion.p>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
-            <motion.img initial={{x:100, opacity: 0}} animate={{x:0, opacity:1}} transition={{duration: 1, delay: 1.2}} src={profilePic} alt="Ritesh" />
+          <div className="flex justify-center items-center">
+            <motion.img initial={{x:100, opacity: 0}} animate={{x:0, opacity:1}} transition={{duration: 1, delay: 1.2}} src={profilePic} alt="Ritesh" className="h-[450px] lg:h-[500px] bg-cover bg-center rounded-2xl  w-[500px]" />
           </div>
         </div>
       </div>

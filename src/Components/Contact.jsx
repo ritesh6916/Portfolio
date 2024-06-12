@@ -1,9 +1,7 @@
-import React from "react";
 import { CONTACT } from "../constants";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaRegFilePdf } from "react-icons/fa6";
+// import { FaRegFilePdf } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { FaHackerrank } from "react-icons/fa";
 
@@ -50,18 +48,18 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="flex flex-wrap items-center justify-center text-2xl gap-4 px-3 py-10"
       >
-        <a target="_blank" href="https://www.linkedin.com/in/ritesh-singh-533661190/">
+        <a target="_blank" href="https://www.linkedin.com/in/ritesh-singh-533661190/" className="text-blue-600">
           <FaLinkedin />
         </a>
         <a target="_blank" href="https://github.com/ritesh6916">
           <FaGithub />
         </a>
-        <a target="_blank" href="https://www.hackerrank.com/profile/RITESHSINGH0500">
+        <a target="_blank" href="https://www.hackerrank.com/profile/RITESHSINGH0500" className="text-green-500">
         <FaHackerrank />
         </a>
-        <a target="_blank" href="#">
+        {/* <a target="_blank" href="#">
           <FaRegFilePdf />
-        </a>
+        </a> */}
       </motion.div>
     </div>
   );

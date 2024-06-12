@@ -62,7 +62,7 @@ export const EXPERIENCES = [
           We process, transform & control overall flow of data that flows through client’s sites and tools which are being used by customers.
           `
     ],
-    technologies: ["Mainframe", "JCL", "COBOL", "VSAMs", "DB2", "ServiceNow", "Endeavour", "Jinkins"],
+    technologies: ["Mainframe", "JCL", "COBOL", "VSAMs", "DB2", "ServiceNow", "Endeavour","Expeditor", "Jenkins", "Abend-handling", "CA-07", "PICS", "TeraData"],
   }
 ]
 
